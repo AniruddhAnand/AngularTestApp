@@ -1,0 +1,7 @@
+{
+    "/mylambda": {
+    "target": "https://d2l7ru6nn6.execute-api.us-east-1.amazonaws.com/default/helloworld",
+    "secure": false
+    }
+}
+    
