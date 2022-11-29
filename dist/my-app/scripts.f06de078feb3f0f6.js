@@ -1,0 +1,1 @@
+async function grabData(){const a=require("mysql").createConnection({host:"bpa-db.cluster-c75er1seumuj.us-east-1.rds.amazonaws.com",user:"admin",password:"$bpa#123",port:3306,database:"dealership"});body=await a.query("SELECT * FROM cars"),print(body)}
